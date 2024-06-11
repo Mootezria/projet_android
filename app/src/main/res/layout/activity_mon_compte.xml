@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navigation_bar"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="Mon compte"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="15dp"
+                android:id="@+id/conn"
+                android:text="Me connecter/M'inscrir"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Mes services"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="15dp"
+                android:text="Mon profil locataire"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="15dp"
+                android:text="Mes outils"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Gérer mes abonnements"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="15dp"
+                android:text="Alertes et notifications"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="15dp"
+                android:text="Cookies"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Plus"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:id="@+id/suggestion"
+                android:paddingBottom="15dp"
+                android:text="Un problème, une suggestion ?"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/condition"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:clickable="true"
+                android:paddingBottom="15dp"
+                android:text="Conditions Générales d'Utilisation"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:id="@+id/protection"
+                android:paddingBottom="15dp"
+                android:text="Protection des Données"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="9dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="15dp"
+                android:text="Fonctionnement du service"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="SeLoger"
+                android:textColor="#FF0000"
+                android:textSize="32dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="60dp"
+                android:gravity="center"
+                android:text="SeLoger v6.79.0"
+                android:textColor="#8A7F7F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginLeft="-15dp"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_person_outline_24"
+            android:text="    Mon compte"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/compte2"
+            android:layout_marginLeft="289dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:id="@+id/propietaire"
+            android:drawableTop="@drawable/baseline_key_24"
+            android:text="  Propriétaire"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-155dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_star_border_24"
+            android:text="     Favoris"
+            android:textSize="12dp"
+            android:id="@+id/annonce"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-137dp"
+            />
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_search_24"
+            android:text="  Recherche"
+            android:id="@+id/recherche"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-138dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/hooo"
+            android:text="       Accueil"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/hommy"
+            android:layout_marginLeft="-150dp"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        android:id="@+id/imgbz"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/samir"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonjour"
+        android:textSize="27dp"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:id="@+id/el_bnj"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/el_bnj"
+        android:text="Bienvenue sur SeLoge"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Nouvelle Recherche"
+        android:textSize="17dp"
+        android:paddingRight="19dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/btnhooooo"
+        android:backgroundTint="#E30B0B"
+        android:layout_marginTop="109dp"
+        android:drawableLeft="@drawable/serchicha"
+        android:layout_marginLeft="10dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/imgbz"
+    android:layout_marginTop="-550dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:scrollbars="horizontal"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview2"
+        tools:ignore="MissingConstraints"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginLeft="-15dp"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_person_outline_24"
+            android:text="    Mon compte"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/comptea"
+            android:layout_marginLeft="289dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:id="@+id/propietairea"
+            android:drawableTop="@drawable/baseline_key_24"
+            android:text="  Propriétaire"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-155dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_star_border_24"
+            android:text="     Favoris"
+            android:textSize="12dp"
+            android:id="@+id/annoncea"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-137dp"
+            />
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_search_24"
+            android:text="  Recherche"
+            android:id="@+id/recherchea"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-138dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/hooo"
+            android:text="       Accueil"
+            android:textSize="12dp"
+            android:id="@+id/hommya"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-150dp"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

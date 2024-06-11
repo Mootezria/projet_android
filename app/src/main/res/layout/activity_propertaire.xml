@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".propertaire">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon espace propriétaire"
+        android:textSize="27dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginLeft="5dp"
+        app:cardBackgroundColor="#FAE1D0"
+        android:layout_marginTop="15dp"
+        app:cardUseCompatPadding="true">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/mzzz"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="170dp"
+    android:background="@drawable/raduis"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estimiser mon bien"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp"
+            android:textSize="22dp"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="Résultat immédiat"
+        android:textSize="16dp"
+        android:layout_marginLeft="12dp"
+        android:drawableLeft="@drawable/check"
+        android:layout_marginTop="50dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Analyse de marché"
+            android:textSize="16dp"
+            android:layout_marginLeft="12dp"
+            android:drawableLeft="@drawable/check"
+            android:layout_marginTop="80dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Derniéres ventes"
+            android:textSize="16dp"
+            android:layout_marginLeft="12dp"
+            android:drawableLeft="@drawable/check"
+            android:layout_marginTop="110dp"
+            />
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Estimer"
+            android:textSize="17dp"
+            android:paddingLeft="23dp"
+            android:backgroundTint="#222"
+            android:id="@+id/btn_to_etsimer"
+            android:drawableRight="@drawable/fleche"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="15dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginLeft="5dp"
+        app:cardBackgroundColor="#AED9E6"
+        android:layout_marginTop="270dp"
+        app:cardUseCompatPadding="true">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/nnnnn"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/raduis"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Déposer une annonce"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp"
+            android:textSize="22dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location ou vente"
+            android:textSize="16dp"
+            android:layout_marginLeft="12dp"
+            android:drawableLeft="@drawable/check"
+            android:layout_marginTop="50dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100% Gratuit"
+            android:textSize="16dp"
+            android:layout_marginLeft="12dp"
+            android:drawableLeft="@drawable/check"
+            android:layout_marginTop="80dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sans engagement"
+            android:textSize="16dp"
+            android:layout_marginLeft="12dp"
+            android:drawableLeft="@drawable/check"
+            android:layout_marginTop="110dp"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Créer une annonce "
+            android:textSize="17dp"
+            android:paddingLeft="23dp"
+            android:id="@+id/btn_to_annonce"
+            android:backgroundTint="#222"
+            android:drawableRight="@drawable/fleche"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="15dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autres services"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginTop="600dp"
+        android:id="@+id/bhj"
+        android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="26dp"
+                android:text="Trouver une agence"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:id="@+id/kqs"
+                android:layout_below="@+id/bhj"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bhj"
+                android:text="Confirmer ma vente à un expert"
+                android:textSize="16dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="65dp"
+                />
+
+            <TextView
+                android:id="@+id/lll"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/kqs"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="26dp"
+                android:text="Gérer mes annonces"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Editier,supprimer,changer le statut"
+                android:textSize="16dp"
+                android:layout_below="@+id/kqs"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="65dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:id="@+id/ppp"
+                android:textStyle="bold"
+                android:paddingRight="7dp"
+                android:paddingBottom="26dp"
+                android:layout_below="@+id/lll"
+                android:text="Déménager"
+                android:textSize="19dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="préparer mon déménagement"
+                android:textSize="16dp"
+                android:layout_below="@+id/lll"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="65dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/draw"
+                android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="26dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/ppp"
+                android:text="Aide et contact"
+                android:textSize="19dp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consulter notre FAQ"
+            android:textSize="16dp"
+            android:layout_below="@+id/ppp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="65dp"/>
+</RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginLeft="-15dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_person_outline_24"
+            android:text="    Mon compte"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/comptep"
+            android:layout_marginLeft="289dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:id="@+id/propietaire"
+            android:drawableTop="@drawable/baseline_key_24"
+            android:text="  Propriétaire"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-155dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_star_border_24"
+            android:text="     Favoris"
+            android:textSize="12dp"
+            android:id="@+id/favoriasp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-137dp"
+            />
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/baseline_search_24"
+            android:text="  Recherche"
+            android:id="@+id/recherchep"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-138dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:drawableTop="@drawable/hooo"
+            android:text="       Accueil"
+            android:textSize="12dp"
+            android:id="@+id/hommyp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-150dp"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

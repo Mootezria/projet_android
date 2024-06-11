@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projett" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <item name="colorPrimary">@color/lavender</item>
+    </style>
+
+    <style name="Theme.Projett" parent="Base.Theme.Projett" />
+    <style name="DialogAnimation">
+    <item name="android:windowEnterAnimation">@anim/slide_in</item>
+    <item name="android:windowExitAnimation">@anim/slide_on</item>
+    </style>
+
+</resources>

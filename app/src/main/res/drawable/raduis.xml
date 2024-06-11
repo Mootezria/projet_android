@@ -1,0 +1,6 @@
+<!-- rounded_corner.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp"/> <!-- Ajustez le rayon comme vous le souhaitez -->
+    <solid android:color="#FAE1D0"/> <!-- Couleur de fond -->
+</shape>
